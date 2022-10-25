@@ -5,6 +5,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  who-to-not:  # id of input
+    description: 'Who to not'
+    required: true
+    default: 'no world!'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
