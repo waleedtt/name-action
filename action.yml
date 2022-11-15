@@ -15,5 +15,3 @@ outputs:
 runs:
   using: 'node16'
   main: 'index.js'
-  env:
-    keyOfCache: test-key-1
