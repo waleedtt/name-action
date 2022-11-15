@@ -7,6 +7,7 @@ try {
   const nameToNotGreet = core.getInput('who-to-not');
   console.log(`Hello ${nameToGreet}!`);
   console.log(`Hello No ${nameToNotGreet}!`);
+  console.log(process.env)
   const time = (new Date()).toTimeString();
   core.setOutput("time", time);
   // Get the JSON webhook payload for the event that triggered the workflow
